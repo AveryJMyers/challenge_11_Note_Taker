@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const uuid = require('uuid');
 
+//gets all the notes data from the db.json
 router.get('/notes', (req, res) => {
   try {
     const notesData = fs.readFileSync(path.join(__dirname, '../../db/db.json'));
@@ -15,6 +16,8 @@ router.get('/notes', (req, res) => {
   }
 });
 
+
+// adds notes to db.json
 router.post('/notes', (req, res) => {
   try {
     const notesData = fs.readFileSync(path.join(__dirname, '../../db/db.json'));
@@ -35,5 +38,5 @@ router.post('/notes', (req, res) => {
 });
 
 
-
+//exports the router 
 module.exports = router;
