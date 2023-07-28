@@ -25,7 +25,7 @@ router.post('/notes', (req, res) => {
       text: req.body.text,
     };
     notes.push(newNote);
-    fs.writeFileSync(path.join(__dirname, '../../db/db.json'), JSON.stringify(notes));
+    fs.writeFileSync(path.join(__dirname, '../../db/db.json'), JSON.stringify(notes, null, 2));
 
     res.json({ message: 'Note added successfully!', note: newNote });
   } catch (err) {
@@ -33,5 +33,7 @@ router.post('/notes', (req, res) => {
     res.status(500).json({ message: 'Internal Server Error' });
   }
 });
+
+
 
 module.exports = router;

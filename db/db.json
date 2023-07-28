@@ -1,1 +1,6 @@
-[{"title":"Test Title","text":"Test text"},{"id":"f97554d6-f7fb-4c05-860c-b16fc1a3e96e","title":"test","text":"test"},{"id":"bae1cc33-31da-424d-8440-fe8f9a2ee658","title":"test again","text":"test"}]
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  }
+]
