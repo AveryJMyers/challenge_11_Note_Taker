@@ -20,21 +20,21 @@ Application that can be used to write and save notes.
 
 ## Usage
 
+1. Visit https://ajm-chall-11-note-taker-1f7175607291.herokuapp.com/
+2. Click 'Get Srarted'
+3. Begin writing notes 
+
 
 ## Credits
 UCB Starter code
 
 ## License
 
-This project is licensed under the NONE license. Click [here]() for more information.
+N/A
 
-## License
+## Visuals 
 
-
-## Features
-
-
-## Tests 
+![Deployed Page](./deployed_11.png)
 
 
 ## Questions 
